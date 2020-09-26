@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body, #root, #all {
+	height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: rgb(246, 248, 250);
+  margin: 0;
+  font-family: Gill Sans Extrabold, sans-serif;
+}
+
+
+#stackline, #summary, #lineGraph, #table {
+	background-color: white;
+}
+
+
+#stackline {
+	height: 3%;
+	padding: 1%;
+}
+
+#stacklineName {
+	width: 8%;
+	height: 120%;
+}
+
+
+#summary {
+	margin-top: 4%;
+	margin-left: 1%;
+	width: 20%;
+	height: 100%;
+	float: left;
+	box-shadow:1px 2px 3px lightgrey;
+}
+
+
+#imageDiv {
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 2%;
+}
+
+#image {
+	width: 55%;
+	height: 55%;
+}
+
+#title {
+	font-weight: 600;
+	color: rgb(80,81,90);
+}
+
+#subtitle {
+	font-size: 78%;
+	color: rgb(204,205,211);
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+#tags {
+	border-top: 1px solid rgb(243,244,248);
+	border-bottom: 1px solid rgb(243,244,248);
+	padding-left: 5%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+.tag {
+	border: 1px solid rgb(243,244,248);
+	border-radius: 4px;
+	margin-right: 3%;
+	margin-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 78%;
+	color: rgb(106,109,121);
+	display:inline-block;
+}
+
+#overview, #sales {
+	margin-left: 5%;
+	margin-top: 10%;
+	font-size: 90%;
+	font-weight: 600;
+}
+
+#overview {
+	color: rgb(204,205,211);
+}
+
+#sales {
+	color: rgb(80,81,90);
+}
+
+#overview_icon {
+	width: 50%;
+	height: 50%;
+}
+
+#sales_icon {
+	margin-top: -2%;
+	width: 40%;
+	height: 36%;
+}
+
+
+#graph {
+	margin-top: 4%;
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 77%;
+	height: 100%;
+	float: left;
+}
+
+#lineGraph {
+	height: 55%;
+}
+
+
+#table {
+	margin-top: 5%;
+	height: 38%;
 }
